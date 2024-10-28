@@ -1,3 +1,6 @@
+use warehouse frostyfriday;
+use database frostyfriday;
+use schema frostyfriday;
 create STAGE IDENTIFIER('"FROSTYFRIDAY"."FROSTYFRIDAY"."FROSTYFRIDAYS301"')
 URL = 's3://frostyfridaychallenges/challenge_1/' DIRECTORY = ( ENABLE = true ); -- create the stage
 
